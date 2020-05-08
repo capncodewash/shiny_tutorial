@@ -18,6 +18,12 @@ Source: CRAN
 Version: 1.0.4.6
 Hash: 8b95553bc32a59321b8981aa02bfbf72
 
+Package: TTR
+Source: CRAN
+Version: 0.23-6
+Hash: 5b65370ba88e7271d894934f861f57d8
+Requires: curl, xts, zoo
+
 Package: askpass
 Source: CRAN
 Version: 1.1
@@ -244,6 +250,12 @@ Source: CRAN
 Version: 1.3.2
 Hash: 6e8ed574a4550ce4f72cdafa9227152b
 
+Package: quantmod
+Source: CRAN
+Version: 0.4.17
+Hash: 6aadbd45adc8116a95dc16ed3add2715
+Requires: TTR, curl, xts, zoo
+
 Package: rematch
 Source: CRAN
 Version: 1.0.1
@@ -344,7 +356,18 @@ Source: CRAN
 Version: 1.8-4
 Hash: dc0d47261b678d26032363bebd050540
 
+Package: xts
+Source: CRAN
+Version: 0.12-0
+Hash: 76d62c446276519363516ece8961a791
+Requires: zoo
+
 Package: yaml
 Source: CRAN
 Version: 2.2.1
 Hash: 424bc11cc358f23187feaa7978628196
+
+Package: zoo
+Source: CRAN
+Version: 1.8-8
+Hash: cc9534113f4513acb2f838ef8e2cd467
